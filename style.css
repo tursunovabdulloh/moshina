@@ -1,0 +1,102 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-self: auto;
+  height: 100%;
+  width: 300px;
+  padding: 20px;
+  margin: 0;
+  background-color: #b0aea5;
+}
+.container {
+  display: flex;
+
+  margin: 20px 0;
+  padding: 0 25px;
+  gap: 50px;
+}
+.yozuv {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: larger;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+input {
+  width: 100%;
+  max-width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  margin-bottom: 12px;
+}
+.color {
+  margin-bottom: 32px;
+}
+.btn {
+  width: 100px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: larger;
+  background-color: blue;
+  border: 0;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+.box1 {
+  display: flex;
+  max-width: 1250px;
+  height: 100%;
+}
+#carlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+  width: 1180px;
+  /* padding: 0 20px; */
+}
+#card {
+  list-style: none;
+}
+img {
+  border: 1px solid black;
+}
+#card {
+  padding: 10px 0;
+}
+.car {
+  width: 300px;
+  border-radius: 5px;
+}
+/* form */
+.ismform {
+  font-family: "Poppins";
+  font-size: 36px;
+  color: black;
+  font-weight: 400;
+  padding: 15px 0;
+  border: 1px solid rgb(197, 184, 184);
+}
+.speedform {
+  padding: 10px 0;
+  border: 1px solid rgb(197, 184, 184);
+}
+.priceform {
+  padding: 10px 0;
+  border: 1px solid rgb(197, 184, 184);
+}
+.colorform {
+  width: 300px;
+  margin: 10px 0;
+  border: 1px solid rgb(197, 184, 184);
+}
+.imgform {
+  width: 300px;
+  border: 0;
+  border-radius: 5px;
+}
+.boreder {
+  /* border: 1px solid rgb(197, 184, 184); */
+}
