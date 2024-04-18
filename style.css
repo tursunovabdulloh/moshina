@@ -6,14 +6,14 @@
   width: 300px;
   padding: 20px;
   margin: 0;
-  background-color: #b0aea5;
+  background-color: #c1a42583;
 }
 .container {
   display: flex;
-
   margin: 20px 0;
   padding: 0 25px;
   gap: 50px;
+  padding-bottom: 50px;
 }
 .yozuv {
   font-family: "Poppins", sans-serif;
@@ -54,8 +54,7 @@ input {
   flex-wrap: wrap;
   gap: 30px;
   list-style: none;
-  width: 1180px;
-  /* padding: 0 20px; */
+  width: 1080px;
 }
 #card {
   list-style: none;
@@ -72,8 +71,8 @@ img {
 }
 /* form */
 .ismform {
-  font-family: "Poppins";
-  font-size: 36px;
+  font-family: sans-serif;
+  font-size: 100px;
   color: black;
   font-weight: 400;
   padding: 15px 0;
@@ -97,6 +96,50 @@ img {
   border: 0;
   border-radius: 5px;
 }
-.boreder {
-  /* border: 1px solid rgb(197, 184, 184); */
+
+/* asosiy */
+.ism {
+  margin-bottom: 12px;
+  color: #fff;
+}
+.moshina_rasm {
+  width: 300px;
+  border: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 12px;
+}
+.li1_div {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid #fff;
+}
+.li2_div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 300px;
+  padding-left: 20px;
+}
+.speed {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: rgb(102, 99, 99);
+  font-weight: 400;
+}
+.price {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: rgb(102, 99, 99);
+  font-weight: 400;
+}
+.color {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: rgb(102, 99, 99);
+  font-weight: 400;
+  height: 20px;
+}
+.card {
+  background-color: aqua;
 }

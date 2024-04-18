@@ -96,6 +96,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
-body {
+/* body {
   display: flex;
+} */
+body {
+  background-image: url(https://binomen.ru/photo/uploads/posts/2023-11/1699471412_binomen-ru-p-derevyannii-fon-i-zelen-krasivo-2.jpg);
 }
